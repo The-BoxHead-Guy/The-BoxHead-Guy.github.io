@@ -1,38 +1,119 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <!-- todo: Create a link tag, and set a css stylesheet to this page -->
     <title>Website</title>
   </head>
   <body>
     <!-- Content -->
-    <h1>Jhon's Website</h1>
-    <p>
-      Welcome to my first page, in which I'll write and show you how incredible this path or journey as a front-end developer is. If you want more content like this and now how is this possible, go to my <strong>github profile</strong> following the next link -> <em><a href="https://github.com/The-BoxHead-Guy">The Box Head Guy</a></em> well known as: Jhon
-    </p>
-
-    <hr />
+    <nav>
+      <!-- External links -->
+      <a href="./index.html">Home</a>
+      <a href="./Web/Spiders.html">Spiders</a>
+      <a href="./Web/moby-dick.html">Moby Dick</a>
+    
+      <!-- Internal Links -->
+      <a href="#profile">Profile</a>
+      <a href="#cats">Cats</a>
+      <a href="#origin-wDev">Original Web Dev</a>
+      <a href="#shakespeare">Shakespeare</a>
+      <a href="#spiders">Spiders</a>
+      <a href="#moby-dick">Moby Dick</a>
+    </nav>
+    <section id="profile">
+      <header align="center">
+        <h1>Jhon's Website</h1>
+      </header>
+      <figure align="center">
+        <img
+          src="https://avatars.githubusercontent.com/u/80791406?v=4"
+          alt="The box head Guy github profile"
+          width="250"
+          height="240"
+        />
+        <figcaption><a href="https://github.com/The-BoxHead-Guy" style="text-decoration: none;">Jhon Alessandro</a> - Web Developer</figcaption>
+      </figure>
+      <article>
+        <p>
+          Welcome to my first page, in which I'll write and show you how
+          incredible this path or journey as a front-end developer is. If you
+          want more content like this and now how is this possible, go to my
+          <strong>github profile</strong> following the next link:
+        </p>
+        <aside align="start">
+          <a
+            href="https://github.com/The-BoxHead-Guy"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <img
+              src="./Resources/github-142.svg"
+              alt="github logo"
+              width="50"
+              height="25"
+            />The Box Head Guy
+          </a>
+          <hr />
+        </aside>
+      </article>
+    </section>
+    <section id="cats">
     <h2>A message</h2>
     <p>Cats are cute</p>
     <img src="https://tinyurl.com/2dusu532" alt="Cute cat logo" />
+    </section>
 
     <section id="origin-wDev">
       <h2>The original "Web developer"</h2>
-      <p>
-        <strong>Tim Berners Lee</strong> was the father founder and scientist behind <strong>HTML</strong> not only because he <em>created it</em> but also made the necessary tools that were going to be used in order to make it work, things such
+      <div>
+        <strong>Tim Berners Lee</strong> was the father founder and scientist
+        behind <strong>HTML</strong> not only because he <em>created it</em> but
+        also made the necessary tools that were going to be used in order to
+        make it work, things such
 
         <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" target="_blank">HTTP</a> request</li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>: HyperText Markup Language</li>
-          <li><a href="https://en.wikipedia.org/wiki/CERN_httpd" target="_blank">HTTP server</a> First server</li>
-          <li><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">WWW</a> World Wide Web</li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTTP"
+              target="_blank"
+              >HTTP</a
+            >
+            request
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >HTML</a
+            >: HyperText Markup Language
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/CERN_httpd" target="_blank"
+              >HTTP server</a
+            >
+            First server
+          </li>
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/World_Wide_Web"
+              target="_blank"
+              >WWW</a
+            >
+            World Wide Web
+          </li>
         </ul>
-      </p>
-    
-      <img src="./Resources/kitten.jpg" alt="An adorable Kitten" width="320" height="240">
+      </div>
+
+      <img
+        src="./Resources/kitten.jpg"
+        alt="An adorable Kitten"
+        width="320"
+        height="240"
+      />
     </section>
     <!-- Inyected code -->
-
+    <section id="shakespeare">
     <p>
       William Shakespeare's <em>Sonnets</em> consists of 154 poems, each
       fourteen lines long (three
@@ -50,5 +131,26 @@
         And summer's lease hath all too short a date.
       </p>
     </blockquote>
+    <section id="spiders">
+      <h2>Spiders?</h2>
+      <p>
+        Do you want to know abou <strong>spiders?</strong> then click this link
+        <a
+          style="text-decoration: none"
+          href="./Web/Spiders.html"
+          target="_blank"
+          >What are spiders?</a
+        >
+      </p>
+    </section>
+    <section id="moby-dick">
+    <div>
+      <h2>What about <span>Moby dick?</span></h2>
+      <a href="./Web/moby-dick.html" target="_blank">
+        <img src="./Resources/moby_dick.png" alt="Cover of Moby Dick book" />
+      </a>
+    </div>
+    </section>
+    </section>
   </body>
 </html>
