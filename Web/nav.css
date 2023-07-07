@@ -8,10 +8,22 @@ body {
 nav {
     margin: auto;
     padding: 20px;
-    width: 90%;
+    width: 95%;
     border: solid 2px #3f3f3f ;
     border-radius: 10px;
     background-color: #f5f5f5;
+}
+
+/* Spiders nav style */
+
+.spiders-nav {
+    text-align: center;
+    background-color: #3f3f3f;
+    color: white;
+}
+
+.spiders-nav a {
+    color: white;
 }
 
 nav a {
