@@ -1,0 +1,33 @@
+/* Website basic CSS */
+
+body {
+    margin: 40px; 
+    padding: 40px;
+}
+
+nav {
+    margin: auto;
+    padding: 20px;
+    width: 95%;
+    border: solid 2px #3f3f3f ;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+/* Spiders nav style */
+
+.spiders-nav {
+    text-align: center;
+    background-color: #3f3f3f;
+    color: white;
+}
+
+.spiders-nav a {
+    color: white;
+}
+
+nav a {
+    margin: 0 15px 0 15px;
+    color: black;
+    text-decoration: none;
+}
