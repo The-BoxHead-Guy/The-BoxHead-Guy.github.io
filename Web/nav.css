@@ -1,33 +1,46 @@
 /* Website basic CSS */
 
 body {
-    margin: 40px; 
-    padding: 40px;
+  margin: 40px;
+  padding: 40px;
 }
 
 nav {
-    margin: auto;
-    padding: 20px;
-    width: 95%;
-    border: solid 2px #3f3f3f ;
-    border-radius: 10px;
-    background-color: #f5f5f5;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  border: solid 2px #3f3f3f;
+  border-radius: 10px;
+  background-color: #3f3f3f;
 }
 
 /* Spiders nav style */
 
 .spiders-nav {
-    text-align: center;
-    background-color: #3f3f3f;
-    color: white;
+  text-align: center;
+  background-color: #3f3f3f;
+  color: white;
 }
 
 .spiders-nav a {
-    color: white;
+  color: white;
 }
 
 nav a {
-    margin: 0 15px 0 15px;
-    color: black;
-    text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 0.75% 1%;
+}
+
+nav a:link,
+nav a:visited {
+  padding: 0.75%;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover,
+nav a:active {
+  background-color: #4c4c4c;
 }
